@@ -54,14 +54,12 @@
                 <input type="date" class="form-control" name="tgl_lahir">
             </div>
 		
-	<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-   kelamin
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">laki-laki</a></li>
-    <li><a class="dropdown-item" href="#">perempuan</a></li>
-  </ul>
+	<div class="mb-3">
+    <label class="form-label">Jenis Kelamin</label>
+    <select class="form-select" name="jenis_kelamin">
+        <option value="Laki-laki">Laki-laki</option>
+        <option value="Perempuan">Perempuan</option>
+    </select>
 </div>
 	
 	<div class="mb-3">
@@ -88,10 +86,10 @@
 						<input type="tel" class="form-control" name="no_telp" placeholder="08123456789">
 					</div>
 					
-	<div class="col-md-15 mb-3">
-		<input type="checkbox" class="form-check-input" id="exampleCheck1">
-		<label class="form-check-label" for="exampleCheck1">Check me out</label> 				
-				</div>
+	<div class="col-md-15 mb-3 text-start">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" name="agreement">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label> 				
+</div>
 
 		</div>
 	  <button type="submit" class="btn btn-primary">Submit</button>
